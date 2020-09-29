@@ -13,7 +13,7 @@ into the {body} of the default.hbs template --}}
             <span class="date">{{date format="MMMM D, YYYY"}}</span>
             <h1>{{title}}</h1>
             {{#if custom_excerpt}}
-                <p class="content">{{custom_excerpt}}</p>
+            <p class="content">{{custom_excerpt}}</p>
             {{/if}}
         </header>
 
@@ -54,6 +54,51 @@ into the {body} of the default.hbs template --}}
                 </a>
                 {{/foreach}}
             </div>
+
+            <hr>
+
+            <div>
+                <h3>Subscribe to New Posts</h3>
+                <p>If you would like to be notified of new posts, you can <a style="font-weight: 700;"
+                        href="https://feedburner.google.com/fb/a/mailverify?uri=ChurchSacrificial&amp;loc=en_US">subscribe
+                        to Church Sacrificial by email</a>. We won't use your email for any nefarious
+                    purposes.
+                    If you have an RSS reader, you can also <a
+                        href="http://feeds.feedburner.com/ChurchSacrificial">subscribe to our feed in RSS</a>.
+                </p>
+            </div>
+
+            <div>
+                <h3>Have Some Thoughts?</h3>
+                <p>Following the <a
+                        href="https://faithfulfathers.today/2020/07/06/is-social-media-an-enemy-of-your-soul/">same
+                        reasons
+                        outlined on Faithful Fathers</a>, we do not allow comment boxes on our site. One-on-one
+                    conversations tend to be immeasurably more mutually beneficial and fruitful than 99% of
+                    "public" conversations/comment threads.
+                </p>
+                <p>That does not mean we
+                    are not interested in dialogue. Quite the contrary! We welcome your thoughts. Just drop us a line
+                    below. If you have your own blog or channel with a response, send a link along.
+                </p>
+                <!-- modify this form HTML and place wherever you want your form -->
+
+                <form action="https://formspree.io/moqpvven" method="POST">
+                    <label>
+                        Your email:
+                        <input type="text" name="_replyto">
+                    </label>
+                    <label>
+                        Your message:
+                        <textarea name="message"></textarea>
+                    </label>
+
+                    <!-- your other form fields go here -->
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
 
         </footer>
 
