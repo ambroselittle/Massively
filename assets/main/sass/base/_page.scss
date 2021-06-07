@@ -6,6 +6,10 @@
 
 /* Basic */
 
+    :root {
+        --color-primary: var(--ghost-accent-color, #18bfef);
+    }
+
 	// MSIE: Required for IEMobile.
 		@-ms-viewport {
 			width: device-width;
@@ -46,3 +50,8 @@
 			}
 
 	}
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }

@@ -1,12 +1,6 @@
 // Main
 // --------------------------------------------
 
-// Fix main cover image bg position
-#wrapper>.bg {
-    background-position: top center;
-    background-size: auto, auto, cover;
-}
-
 #intro {
     max-width: 800px;
     margin: 0 auto;
@@ -128,7 +122,7 @@
 }
 
 .author-box:hover .author-box-name {
-    color: #18bfef;
+    color: var(--color-primary);
     transition: color 0.2s ease;
 }
 
